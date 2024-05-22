@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+.center {
+  max-width: 1345px;
+  margin-inline: auto;
+}
+
+.center-md {
+  max-width: 1440px;
+  margin-inline: auto;
+}
+
+/* Margins */
+.mt150 {
+  margin-top: 150px;
+}
+.mt110 {
+  margin-top: 110px;
+}
+.mt80 {
+  margin-top: 80px;
+}
+.mt20 {
+  margin-top: 20px;
+}
+.mt5 {
+  margin-top: 5px;
+}
+
+/* Headings */
+.h1 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 44px;
+  color: #02001b;
+}
+.h2 {
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 120%;
+  color: #0a0222;
+}
+
+/* Paragraphs */
+.p1 {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 26px;
+  text-align: left;
+  color: #1d1d20;
+}
+.p2 {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 170%;
+  color: #0a0222;
+}
+.p3 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #ffffff;
+  max-width: 198px;
+}
+
+/* Text center */
+.text-center {
+  text-align: center;
+}
+
+.header {
+  background-image: url("/img/lahdaa-wait-header-bg.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 60px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+  /* background-color: red; */
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.link-1 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.link-2 {
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #ffffff;
+  color: #02001b;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 15px;
+  padding-inline: 15px;
+  border-radius: 30px;
+}
+
+.hero-heading {
+  color: #84889a;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.hero-sub-heading {
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 130%;
+  text-align: center;
+
+  max-width: 760px;
+  margin-inline: auto;
+  margin-top: 50px;
+}
+
+.hero-link-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 30px;
+}
+
+.hero-down-text {
+  max-width: 533px;
+  margin-inline: auto;
+
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+
+  margin-top: 30px;
+}
+
+.hero-down-text_span {
+  color: #84889a;
+}
+
+.hero-image-container {
+  margin-top: 50px;
+}
+
+.hero-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.why-lahdaa-section {
+  padding-block: 70px;
+}
+
+.our-difference-layout {
+  display: flex;
+  gap: 24px;
+}
+
+.our-difference-layout__left {
+  flex-basis: 50%;
+}
+.our-difference-layout__right {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.our-difference__card-1 {
+  background-color: #eef0ff;
+  border-radius: 16px;
+
+  padding: 20px;
+}
+.our-difference__card-2 {
+  background-color: #000000;
+  border-radius: 16px;
+
+  padding: 20px;
+
+  background-image: url("./img/why-lad-min.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.our-difference__card-3 {
+  background-color: #f3f3f3;
+  border-radius: 16px;
+
+  padding: 20px;
+}
