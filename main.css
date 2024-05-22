@@ -293,3 +293,26 @@ html {
 .learn-image {
   width: 100%;
 }
+
+.freedom-section {
+  background-color: #02001b;
+  padding-block: 60px;
+}
+
+.freedom-layout {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.freedom-layout__left {
+  flex-basis: 50%;
+}
+
+.freedom-layout__right {
+  flex-basis: 50%;
+}
+
+.freedom_image {
+  width: 100%;
+}
