@@ -297,6 +297,11 @@ html {
 .freedom-section {
   background-color: #02001b;
   padding-block: 60px;
+
+  background-image: url("./img/freedomw-bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .freedom-layout {
