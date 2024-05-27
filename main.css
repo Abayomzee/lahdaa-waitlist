@@ -266,6 +266,16 @@ html {
   width: 100%;
 }
 
+.footer-section {
+  background-image: url("/img/footer-img.png");
+  background-position: bottom right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #02001b;
+  padding-top: 60px;
+  padding-bottom: 500px;
+}
+
 /* Utilities */
 .center {
   max-width: 1345px;
