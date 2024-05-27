@@ -276,6 +276,19 @@ html {
   padding-bottom: 500px;
 }
 
+.footer-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
 /* Utilities */
 .center {
   max-width: 1345px;
@@ -363,6 +376,19 @@ html {
   line-height: 150%;
   color: #ffffff;
   max-width: 198px;
+}
+
+.l1 {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 110%;
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.l1:hover {
+  color: #a0a0a0;
 }
 
 /* Text center */
